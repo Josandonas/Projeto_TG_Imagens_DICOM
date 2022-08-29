@@ -21,3 +21,4 @@ for diretorio, subpastas, arquivos in os.walk(pasta, topdown=False):
                 #print('true')
                 print('Excluindo arquivo', arquivo)
                 os.remove(arquivo)
+# teste 1 (célio)
