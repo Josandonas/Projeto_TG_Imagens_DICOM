@@ -10,7 +10,7 @@ print(ds.SeriesDescription)
 # plt.show()
 from pydicom import dcmread
 
-pasta = 'muda aqui pro caminho'
+pasta = 'muda aqui pro caminho do arquivo'
 for diretorio, subpastas, arquivos in os.walk(pasta, topdown=False):
     for arquivo in arquivos:         
         if arquivo.endswith('.DCM'):
